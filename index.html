@@ -915,7 +915,77 @@
         </div>
       </div>
     </section>
-  <footer class="border-t border-gray-800 bg-gray-950">
+      <!-- Privacy Policy Section -->
+    <section id="privacy-policy" class="py-20 md:py-32 border-t border-gray-800 bg-gray-900">
+      <div class="max-w-4xl mx-auto px-8 md:px-16">
+        <h2 class="text-3xl md:text-4xl font-semibold tracking-tight text-white mb-8">Privacy Policy</h2>
+        <div class="prose prose-invert max-w-none space-y-6 text-gray-300 font-light">
+          <div>
+            <h3 class="text-xl font-semibold text-white mb-3">1. Information We Collect</h3>
+            <p>We collect information you provide directly to us through contact forms, email inquiries, and service requests. This may include your name, email address, phone number, company name, and details about your connectivity needs.</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold text-white mb-3">2. How We Use Your Information</h3>
+            <p>We use the information we collect to provide dedicated internet procurement services, respond to inquiries, send service updates, and improve our offerings. We may also use it to contact you about relevant services or special promotions.</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold text-white mb-3">3. Information Sharing</h3>
+            <p>We do not sell your personal information. We may share information with carrier partners (Frontier, CenturyLink, Lumen) as necessary to provide services you have requested. All partner sharing is governed by strict confidentiality agreements.</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold text-white mb-3">4. Data Security</h3>
+            <p>We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold text-white mb-3">5. Your Rights</h3>
+            <p>You have the right to access, update, or delete your personal information at any time by contacting us at quote@ignets.com. You may also opt out of marketing communications.</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold text-white mb-3">6. Contact Us</h3>
+            <p>If you have questions about this Privacy Policy or our data practices, please contact us at <span class="text-[#EEF0FF]">quote@ignets.com</span> or <span class="text-[#EEF0FF]">yousuf@ignets.com</span>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cookie Policy Section -->
+    <section id="cookie-policy" class="py-20 md:py-32 border-t border-gray-800 bg-gray-950">
+      <div class="max-w-4xl mx-auto px-8 md:px-16">
+        <h2 class="text-3xl md:text-4xl font-semibold tracking-tight text-white mb-8">Cookie Policy</h2>
+        <div class="prose prose-invert max-w-none space-y-6 text-gray-300 font-light">
+          <div>
+            <h3 class="text-xl font-semibold text-white mb-3">What Are Cookies?</h3>
+            <p>Cookies are small text files stored on your device when you visit our website. They help us remember your preferences, track site usage, and improve your experience.</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold text-white mb-3">Types of Cookies We Use</h3>
+            <ul class="list-disc list-inside space-y-2">
+              <li><span class="font-medium text-white">Essential Cookies:</span> Required for basic site functionality, security, and navigation.</li>
+              <li><span class="font-medium text-white">Analytics Cookies:</span> Help us understand how visitors use our site to improve performance and content.</li>
+              <li><span class="font-medium text-white">Preference Cookies:</span> Remember your settings and preferences for future visits.</li>
+              <li><span class="font-medium text-white">Marketing Cookies:</span> Used to deliver relevant content and track campaign effectiveness.</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold text-white mb-3">Managing Cookies</h3>
+            <p>You can control cookie settings through your browser. Most browsers allow you to refuse cookies or alert you when cookies are being sent. Note that disabling certain cookies may affect site functionality.</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold text-white mb-3">Third-Party Cookies</h3>
+            <p>Our website may use third-party services (analytics, forms, etc.) that place their own cookies. We recommend reviewing their privacy policies for more information.</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold text-white mb-3">Cookie Consent</h3>
+            <p>By clicking "Accept All" on our cookie banner, you consent to the use of cookies as described in this policy. You can withdraw consent at any time by clearing your cookies or contacting us.</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold text-white mb-3">Contact Us</h3>
+            <p>For questions about our cookie practices, please contact us at <span class="text-[#EEF0FF]">quote@ignets.com</span>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+<footer class="border-t border-gray-800 bg-gray-950">
       <div class="max-w-7xl mx-auto px-8 md:px-16 py-10 md:py-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
         <div>
           <p class="text-sm text-gray-300 font-light">
@@ -936,11 +1006,70 @@
             <i class="fab fa-facebook text-lg"></i>
           </a>
         </div>
+        <div class="flex items-center gap-6 text-sm text-gray-400">
+          <a href="#privacy-policy" class="hover:text-white transition-colors duration-300">Privacy Policy</a>
+          <a href="#cookie-policy" class="hover:text-white transition-colors duration-300">Cookie Policy</a>
+          <a href="#contact" class="hover:text-white transition-colors duration-300">Contact</a>
+        </div>
       </div>
-    </footer>
+    
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-banner" class="fixed bottom-0 left-0 right-0 bg-gray-900 border-t border-gray-800 p-4 md:p-6 shadow-lg z-50 hidden">
+      <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+        <p class="text-sm text-gray-300 font-light">
+          We use cookies to enhance your experience and analyze site usage. By continuing to browse, you agree to our <a href="#privacy-policy" class="text-[#5B4BFF] hover:text-[#00E5A8] transition-colors">Privacy Policy</a> and <a href="#cookie-policy" class="text-[#5B4BFF] hover:text-[#00E5A8] transition-colors">Cookie Policy</a>.
+        </p>
+        <div class="flex items-center gap-3 flex-shrink-0">
+          <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors">
+            Reject
+          </button>
+          <button id="cookie-accept" class="px-4 py-2 bg-[#5B4BFF] text-white text-sm font-medium rounded hover:brightness-110 transition-all">
+            Accept All
+          </button>
+        </div>
+      </div>
+    </div>
+</footer>
   </div>
 
   <script>
+    // Cookie Consent Management
+    function initCookieConsent() {
+      const cookieBanner = document.getElementById('cookie-banner');
+      const cookieAccept = document.getElementById('cookie-accept');
+      const cookieReject = document.getElementById('cookie-reject');
+      const cookieConsent = localStorage.getItem('cookieConsent');
+
+      if (!cookieConsent) {
+        cookieBanner.classList.remove('hidden');
+      }
+
+      if (cookieAccept) {
+        cookieAccept.addEventListener('click', () => {
+          localStorage.setItem('cookieConsent', 'accepted');
+          cookieBanner.classList.add('hidden');
+          loadAnalytics();
+        });
+      }
+
+      if (cookieReject) {
+        cookieReject.addEventListener('click', () => {
+          localStorage.setItem('cookieConsent', 'rejected');
+          cookieBanner.classList.add('hidden');
+        });
+      }
+    }
+
+    function loadAnalytics() {
+      // Add your analytics tracking code here (Google Analytics, etc.)
+      // Example: Google Analytics would be loaded here
+    }
+
+    initCookieConsent();
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {  <script>
     document.addEventListener('DOMContentLoaded', function() {
       // Mobile Menu Toggle
       const mobileMenuButton = document.querySelector('.mobile-menu-button');
